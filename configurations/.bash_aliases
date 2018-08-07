@@ -12,6 +12,7 @@ if [ $(echo $OSTYPE | grep 'linux') ];then
   alias startvpn='sudo systemctl start openvpn@client.service'
   alias stopvpn='sudo systemctl stop openvpn@client.service'
   alias resetvpn='sudo systemctl stop openvpn@client.service && sudo systemctl start openvpn@client.service'
+  alias vi='vim'
 elif [ $(echo $OSTYPE | grep 'darwin') ];then
   alias ls='\ls -G'
   alias ll='\ls -alFG'

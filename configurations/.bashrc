@@ -1,6 +1,7 @@
 LOCAL_DIR=${LOCAL_DIR:-"$HOME/.local"}
 export GOROOT=${LOCAL_DIR}/go
 export GOPATH=$HOME/workspace/golang
+export PATH=$GOPATH/bin:${LOCAL_DIR}/bin:$HOME/bin:$PATH:/home1/irteam/users/chanmi/caffe/:/usr/local/cuda/:/usr/local/cuda/bin/:
 export TERM="xterm-256color"
 export BYOBU_CONFIG_DIR=$HOME/.byobu
 export BYOBU_PREFIX=${LOCAL_DIR}
@@ -110,3 +111,7 @@ fi
 if [ -r $HOME/.git-completion ];then
   . $HOME/.git-completion
 fi
+
+
+# added by Miniconda3 installer
+export PATH="/home1/irteam/users/chanmi/miniconda3/bin:$PATH"

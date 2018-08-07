@@ -1,8 +1,9 @@
 [user]
-	name = Gwangmin Lee
-	email = gwangmin.lee@naverlabs.com
+	name = chanmi-you
+	email = chanmi.you@naverlabs.com
 [core]
-    editor = vim
+  editor = vim
+	excludesfile = /home/chanmi/.gitignore_global
 	autocrlf = input
 	whitespace = trailing-space,space-before-tab,cr-at-eol
 [diff]
@@ -23,10 +24,12 @@
 [credential]
     helper = cache --timeout=3600
 [credential "https://github.com"]
-    username = aiqu
+    username = chanmi
 [credential "https://es.naverlabs.com"]
-    username = gwangmin.lee
+    username = chanmi.you
 [credential "https://oss.navercorp.com"]
-    username = gwangmin.lee
+    username = chanmi.you
 [help]
 	autocorrect = 1
+[http]
+	sslverify = false
